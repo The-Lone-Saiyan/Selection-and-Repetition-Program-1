@@ -22,6 +22,12 @@ int main()
 
 		if (operand == '/')
 			cout << num1 / num2 << endl;
+
+		if (operand == '/' && num2 == 0)
+			cout << "Cannot divide by zero." << endl;
+		
+		if (operand != '+' || '-' || '*' || '/')
+			cout << "Error, invalid operator symbol." << endl;
 		
 	
 
