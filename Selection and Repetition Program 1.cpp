@@ -4,24 +4,25 @@
 using namespace std;
 
 double num1, num2;
-string operand;
+char operand;
 
 int main()
 {
 	cout << "Please enter two numbers separated by an operator(+, -, *, /):" << endl;
 		cin >> num1 >> operand >> num2;
 
-		if (operand == +)
+		if (operand == '+')
 			cout << num1 + num2 << endl;
 
-		if (operand == -)
+		if (operand == '-')
 			cout << num1 - num2 << endl;
 
-		if (operand == *)
+		if (operand == '*')
 			cout << num1 * num2 << endl;
 
-		if (operand == /)
+		if (operand == '/')
 			cout << num1 / num2 << endl;
+		
 	
 
 	return 0;
